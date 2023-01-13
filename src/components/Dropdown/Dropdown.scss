@@ -1,0 +1,22 @@
+.dropdown {
+  display: none;
+  position: absolute;
+  box-shadow: 3px 7px 15px 2px rgb(0 0 0 / 15%);
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--color-white);
+  &.show{
+    display: block;
+  }
+  .dropdown__items{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    &:not(:last-of-type){
+      margin-bottom: 10px;
+    }
+  }
+}

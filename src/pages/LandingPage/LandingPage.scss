@@ -1,0 +1,52 @@
+.landingPage{
+  background: radial-gradient(107.29% 790.61% at -50.94% -28.11%, rgba(253, 237, 114, 0.2) 0%, rgba(115, 223, 231, 0.2) 18.23%, rgba(172, 93, 217, 0.088) 38.02%, rgba(255, 128, 128, 0.12) 58.33%, rgba(115, 223, 231, 0.14) 78.65%, rgba(253, 237, 114, 0.06) 100%), #FFFFFF;
+  padding: 185px 0 150px;
+  .landingPage__info{
+    margin-bottom: 50px;
+    h1{
+      font-size: 64px;
+      line-height: 82px;
+      text-align: center;
+      color: var(--color-dark1);
+      margin-bottom: 10px;
+    }
+    p{
+      font-size: 28px;
+      line-height: 38px;
+      text-align: center;
+      color: var(--color-dark1);
+      span{
+        background: linear-gradient(147.14deg, #FF8800 6.95%, #E63535 93.05%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+      }
+    }
+  }
+  .landingPage__form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    input{
+      width: 435px;
+      background: var(--color-white);
+      border: 1px solid var(--color-dark4);
+      border-radius: 5px;
+      padding: 18px 22px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: var(--color-dark1);
+      &::placeholder{
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--color-dark4);
+      }
+    }
+  }
+}

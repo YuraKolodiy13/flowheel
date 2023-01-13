@@ -1,0 +1,19 @@
+.nav{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .nav__menus{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  .nav__user{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    .button{
+      padding: 10px 30px;
+    }
+  }
+}
