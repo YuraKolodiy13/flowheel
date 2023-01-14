@@ -49,4 +49,43 @@
       }
     }
   }
+  @media (max-width: 1099px) {
+    .landingPage__info{
+      h1{
+        font-size: 50px;
+        line-height: 70px;
+      }
+      p{
+        font-size: 24px;
+        line-height: 30px;
+      }
+    }
+  }
+  @media (max-width: 991px) {
+    padding: 125px 0 100px;
+    .landingPage__info{
+      h1{
+        font-size: 32px;
+        line-height: 40px;
+      }
+      p{
+        font-size: 20px;
+        line-height: 24px;
+      }
+    }
+    .landingPage__form{
+      input{
+        padding: 10px;
+      }
+    }
+  }
+  @media (max-width: 767px) {
+    padding: 90px 0 50px;
+    .landingPage__form{
+      flex-direction: column;
+      input{
+        width: 100%;
+      }
+    }
+  }
 }

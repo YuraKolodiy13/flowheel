@@ -29,4 +29,10 @@
     color: var(--color-primary-500);
     filter: drop-shadow(0px 0px 1px rgba(40, 41, 61, 0.04)) drop-shadow(0px 2px 4px rgba(96, 97, 112, 0.16));
   }
+
+  @media (max-width: 991px) {
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 18px;
+  }
 }

@@ -7,8 +7,18 @@ body {
   font-weight: 700;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  .App{
+    overflow-x: hidden;
+    position: relative;
+  }
 }
 .container{
   max-width: 1030px;
   margin: 0 auto;
+  @media (max-width: 1099px) {
+    padding: 0 50px;
+  }
+  @media (max-width: 991px) {
+    padding: 0 30px;
+  }
 }

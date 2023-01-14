@@ -1,9 +1,14 @@
 .header{
   padding: 20px 36px;
-  position: absolute;
-  left: 0;
-  right: 0;
+  position: fixed;
   top: 0;
+  right: 0;
+  left: 0;
+  z-index: 30;
+  &.fixed{
+    background-color: var(--color-white);
+    box-shadow: 0 80px 80px -20px rgba(154, 156, 165, 0.16), 0px 30px 24px -10px rgba(154, 156, 165, 0.1), 0px 12px 10px -6px rgba(154, 156, 165, 0.08), 0px 4px 4px -4px rgba(30, 33, 44, 0.05);
+  }
   .header__container{
     display: flex;
     align-items: center;
@@ -16,5 +21,11 @@
     font-size: 28px;
     line-height: 38px;
     flex: none;
+  }
+  @media (max-width: 991px) {
+    padding: 15px 30px;
+    .header__container{
+      gap: 40px;
+    }
   }
 }
